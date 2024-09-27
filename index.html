@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>HellSing</title>
+</head>
+<body>
+    <main>
+         <div class="passo ativo" id="passo-0"> 
+            <img src="img/Hellsing_Mansion.png" alt="">
+            <p> Voce faz parte e é a herdeira da familia dona da corporação HellSing, uma corporação especializada em caçar seres sobrenaturais, desde ghouls, vampiros, zumbis, ou qualquer outro monstro. Certo dia o seu pai, dono da corporação hellsing, morreu e voce se tornou o novo dono dessa corporação porém o seu irmão richard tem muita inveja disso e certo dia ele te ataca, voce corre pela sua vida até chegar no calabouço da corporação hellsing. enquanto voce fugia o seu irmão Richard acertou um tiro no seu braço, correndo mais um pouco até voce tropeçar em algo... </p>
+            <button class="btn-proximo" data-proximo="1">Voce ignora e sai correndo...</button>
+            <button class="btn-proximo" data-proximo="2">Voce olha em que voce tropeçou</button>
+         </div>
+
+ 
+         <div class="passo" id="passo-1">
+            <img src="img/olhos_morte.jpg" alt="">
+            <p>Voce morreu, a ultima coisa que voce ve é o seu irmão ser decapitado por alguma criatura...</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar</button>
+         </div>
+
+         <div class="passo" id="passo-2">
+            <img src="img/alucard.jpg" alt="">
+            <p>Voce olha, voce ve o cadaver começar a se regenerar após entrar em contato com o seu sangue, após alguns segundos ele se regenera por completo e antes mesmo que voce consiga ver, voce ve a cabeça do seu irmão cair no chão e a criatura olha para voce, após observar voce nota que esse monstro é um vampiro. uma das criaturas mais temidas entre os membros da corporação HellSing</p>
+            <button class="btn-proximo" data-proximo="3">Perguntar quem é ele</button>
+            
+         </div>
+
+         <div class="passo" id="passo-3"> 
+            <img src="img/OIP (2).jpg" alt="">
+            <p>Ele diz "Eu sou nada alem de um instrumento dos antigos donos da Hellsing". voce fica confuso e com a duvida se ele era ou não um perigo a voce</p>
+            <button class="btn-proximo" data-proximo="5">Chamar ele de monstro e dizer que a sua familia nunca teria alguma relação com tal criatura</button>
+            <button class="btn-proximo" data-proximo="4">Perguntar o nome dele</button>
+         </div>
+
+         <div class="passo" id="passo-4"> +
+            <img src="img/OIP (1).jpg" alt="">
+            <p> Ele diz que o nome dele é Alucard, e tem um acordo a propor e estica a mão</p>
+            <button class="btn-proximo" data-proximo="6">Perguntar qual é a proposta</button>
+         </div>
+
+         <div class="passo" id="passo-5">
+            <img src="img/OIP.jpg" alt="">
+            <p> A criatura da uma risada sinistra e diz "então voce é só mais um idiota" e te mata logo em seguida acertando um tiro no seu peito</p>
+            <button class="btn-proximo" data-proximo="0">Voce morreu</button>
+         </div>
+ 
+         <div class="passo" id="passo-6">
+            <img src="img/OIP (1).jpg" alt=""> 
+            <p>Ele diz "ja que voce é um decendente dos meus antigos mestre, fique do meu lado e vamos dominar o mundo, caso contrario, voce morrera."</p>
+            <button class="btn-proximo" data-proximo="7">Voce aceita</button>
+            <button class="btn-proximo" data-proximo="8">Voce recusa</button>
+         </div>
+
+         <div class="passo" id="passo-7">
+            <img src="img/Final.jpg" alt=""> 
+            <p>Ao voce aceitar ele sorri e alguns dias depois voce e ele estam juntos rodeados de corpos e alguns humanos lhe tratando como deuses</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar</button>
+         </div>
+
+         <div class="passo" id="passo-8">
+                <img src="img/olhos_morte.jpg" alt=""> 
+                <p>Ele fica com o rosto serio e sem falar nada, voce sente como se voce estivese levando muitos tiros e morrendo logo em seguida</p>
+                <button class="btn-proximo" data-proximo="6">Só há um futuro...</button>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
